@@ -1,13 +1,13 @@
 *{
    color: white;
+   padding: 0;
+   margin: 0;    
 }
 
 body {
     background-color: black;
-    margin: 0;
-    padding: 0;
 }
-
+/*-----------Titulo----------*/
 header{
 	background-color: orange;
 	padding: 1em 0 1em 0;
@@ -18,11 +18,12 @@ header{
 
 header .header_titulo{
 	color: white;
-	font-family: ;
+	font-family: Agency FB;
 	font-weight: bold;
-	font-size: 4em;
+	font-size: 4.5em;
 	text-align: center;
 	background-color: black;
+    text-shadow: gray 0 4px 0;
 	border: 1px dashed green;
 }
 
@@ -34,69 +35,64 @@ header .header_titulo{
 
 header .header_titulo .eleanor{
 	color: white;
-	font-family: ;
+	font-family: Agency FB;
 	font-size: 0.5em;
 	font-weight: bold;
 }
 
 #nav_h {
 	width: 100%;
-	padding: 0;
-	margin: 0;
 	border: 0.1em solid red;
-}
-
-#nav_h .fig_h .img_mb{
-	width: 100%;
-    border-top: 1em solid orange;
-	border-bottom: 1em solid orange;
-	border-radius: 1em;
-}
-
-#nav_h .fig_h{
-	padding: 0;
-    margin-top: 2em;
-	border: 1px dashed white;
-}
-
-#nav_h .menu_info{
-	width: 50%;
-	padding: 1em;
-	margin: auto;
-	border: 1px dashed yellow;
 }
 
 #nav_h .menu_info, a{
 	list-style: none;
 	text-decoration: none;
 }
+/*--------botones menu--------*/
+#nav_h .menu_info{
+	width: 100%;
+    background-color: gray;
+	border: 1px dashed yellow;
+}
 
-#nav_h .menu_info
-.historia, .ftecnica{
-	font-family: ;
-	font-weight: bold;
-	font-size: 2em;
-	text-align: center;
-	border:1px dashed violet;
+#nav_h .menu_info .div_h,
+.div_ft {
+    display: inline-block;
+    padding: 0.1em 0em 0.1em 0em;
+    width: 49%;
+}
+
+#nav_h .menu_info .div_h{
+    border-right: 2px solid white;
 }
 
 #nav_h .menu_info
 .item_h, .item_ft{
-	background-color: gray;
-	border-radius: 0.4em;
-	padding: 10px;
-	margin: auto;
-	border:1px dashed brown;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;    
 }
-
-#nav_h .div_rs{
-	width: 80%;
-	margin: auto;
+/*----------img carro----------*/
+#nav_h .fig_h .img_mb{
+	width: 100%;
+}
+/*----------redes sociales---------*/
+#nav_h .contenedor_rs{
+	width: 100%;
+	margin-top: 3em;
+    background-color: gray;
 	border: 1px dashed pink;
 } 
 
-#nav_h .div_rs .item_face,
+#nav_h .contenedor_rs .div_rs{
+    margin: auto;
+    width: 170px;
+    border: 1px dashed black;
+}
+
+#nav_h .contenedor_rs .div_rs .item_face,
 .item_tw, .item_yt{
-	width: 10%;
-	margin: 0 0 0 0.5em;
+	width: 50px;  
 }
