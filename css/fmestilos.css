@@ -8,7 +8,7 @@ body {
     background-color: black;
 }
 /*-----------Titulo----------*/
-header{
+#first_h{
 	background-color: orange;
 	padding: 1em 0 1em 0;
 	margin: 2em 0 0 0;
@@ -16,7 +16,7 @@ header{
 	border: 1px solid blue;
 }
 
-header .header_titulo{
+#first_h .header_titulo{
 	color: white;
 	font-family: Agency FB;
 	font-weight: bold;
@@ -27,13 +27,13 @@ header .header_titulo{
 	border: 1px dashed green;
 }
 
-header .header_titulo{
+#first_h .header_titulo{
 	width: 100%;
 	padding: 0.1em 0 0.1em 0;
 	margin: 0;
 }
 
-header .header_titulo .eleanor{
+#first_h .header_titulo .eleanor{
 	color: white;
 	font-family: Agency FB;
 	font-size: 0.5em;
@@ -60,7 +60,7 @@ header .header_titulo .eleanor{
 .div_ft {
     display: inline-block;
     padding: 0.1em 0em 0.1em 0em;
-    width: 49%;
+    width: 48%;
 }
 
 #nav_h .menu_info .div_h{
@@ -74,6 +74,7 @@ header .header_titulo .eleanor{
 	font-size: 2.5em;
 	text-align: center;    
 }
+
 /*----------img carro----------*/
 #nav_h .fig_h .img_mb{
 	width: 100%;
@@ -95,4 +96,36 @@ header .header_titulo .eleanor{
 #nav_h .contenedor_rs .div_rs .item_face,
 .item_tw, .item_yt{
 	width: 50px;  
+}
+
+/*----------Titulo2------*/
+#principal .historia .second_h{
+    background-color: red;
+	padding: 1em 0 1em 0;
+	margin: 2em 0 0 0;
+	width: 100%;
+}
+
+#principal .historia .second_h .subt1{
+    color: white;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 4.5em;
+	background-color: black;
+    text-shadow: gray 0 4px 0;
+    padding-left: 10%;
+}
+
+/*---------mustangflat-----------*/
+#principal .historia .img_mf{
+    width: 50%;
+    margin-top: 1em;
+    margin: auto;
+    border: 1px dashed green;
+    
+}
+
+#principal .historia .img_mf .item_mf{
+    
+    border: 1px dashed purple;
 }
