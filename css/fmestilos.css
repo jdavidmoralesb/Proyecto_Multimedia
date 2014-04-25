@@ -8,15 +8,15 @@ body {
     background-color: black;
 }
 /*-----------Titulo----------*/
-#first_h{
-	background-color: orange;
-	padding: 1em 0 1em 0;
-	margin: 2em 0 0 0;
+body #first_h{
+	background-color: #F7931E;
+	padding: 0.9em 0 0.9em 0;
+	margin-top: 5%;
 	width: 100%;
 	border: 1px solid blue;
 }
 
-#first_h .header_titulo{
+body #first_h .header_titulo{
 	color: white;
 	font-family: Agency FB;
 	font-weight: bold;
@@ -27,86 +27,81 @@ body {
 	border: 1px dashed green;
 }
 
-#first_h .header_titulo{
+body #first_h .header_titulo{
 	width: 100%;
 	padding: 0.1em 0 0.1em 0;
 	margin: 0;
 }
 
-#first_h .header_titulo .eleanor{
+body #first_h .header_titulo .eleanor{
 	color: white;
 	font-family: Agency FB;
 	font-size: 0.5em;
 	font-weight: bold;
 }
-
-#nav_h {
+/*--------botones menu--------*/
+body #nav_h {
 	width: 100%;
 	border: 0.1em solid red;
 }
 
-#nav_h .menu_info, a{
+body #nav_h .menu_info, a{
 	list-style: none;
 	text-decoration: none;
 }
-/*--------botones menu--------*/
-#nav_h .menu_info{
-	width: 100%;
-    background-color: gray;
+
+body #nav_h .menu_info{
+    width: 100%;
+    background-color: #1A1A1A;
 	border: 1px dashed yellow;
 }
 
-#nav_h .menu_info .div_h,
-.div_ft {
-    display: inline-block;
-    padding: 0.1em 0em 0.1em 0em;
-    width: 48%;
+body #nav_h .menu_info .item_ft{
+    border-left: 2px solid white;
 }
 
-#nav_h .menu_info .div_h{
-    border-right: 2px solid white;
-}
-
-#nav_h .menu_info
+body #nav_h .menu_info
 .item_h, .item_ft{
 	font-family: Agency FB;
 	font-weight: bold;
 	font-size: 2.5em;
-	text-align: center;    
+	text-align: center;
+    width: 48%;
+    display: inline-block;
 }
 
 /*----------img carro----------*/
-#nav_h .fig_h .img_mb{
+body #nav_h .fig_h .img_mb{
 	width: 100%;
 }
 /*----------redes sociales---------*/
-#nav_h .contenedor_rs{
+body #nav_h .contenedor_rs{
 	width: 100%;
-	margin-top: 3em;
-    background-color: gray;
+	margin-top: 5%;
+    background-color: #1A1A1A;
 	border: 1px dashed pink;
 } 
 
-#nav_h .contenedor_rs .div_rs{
+body #nav_h .contenedor_rs .div_rs{
     margin: auto;
-    width: 170px;
+    width: 160px;
     border: 1px dashed black;
 }
 
-#nav_h .contenedor_rs .div_rs .item_face,
+body #nav_h .contenedor_rs .div_rs .item_face,
 .item_tw, .item_yt{
 	width: 50px;  
 }
 
 /*----------Titulo2------*/
-#principal .historia .second_h{
+body #principal .historia .second_h{
     background-color: red;
-	padding: 1em 0 1em 0;
+	padding: 0.5em 0 0.5em 0;
 	margin: 2em 0 0 0;
 	width: 100%;
 }
 
-#principal .historia .second_h .subt1{
+body #principal .historia .second_h .subt1{
     color: white;
 	font-family: Agency FB;
 	font-weight: bold;
@@ -117,15 +112,134 @@ body {
 }
 
 /*---------mustangflat-----------*/
-#principal .historia .img_mf{
-    width: 50%;
+body #principal .historia .img_mf{
+    width: 100%;
     margin-top: 1em;
-    margin: auto;
     border: 1px dashed green;
     
 }
 
-#principal .historia .img_mf .item_mf{
-    
-    border: 1px dashed purple;
+body #principal .historia .img_mf img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1em;
+
+}
+
+/*----------texto de historia-------*/
+body #principal .historia .info1,
+.info2{
+    color: black;
+    font-family: Arial Narrow;
+    font-size: 1em;
+    text-align: justify;
+    border: 0.3em solid red;
+    border-radius: 10px;
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #F2F2F2;
+}
+/*--------navhistoria-----------*/
+body #principal .historia .nav_historia .b_next{
+    width: 100%;
+    background-color: #1A1A1A;
+    margin-top: 2em;
+    border: 1px dashed white;
+}
+
+body #principal .historia .nav_historia .b_next img{
+    width: 50px;
+}
+/*-------------titulo3-----------*/
+body #principal .ftecnica .third_h{
+    background-color: #868561;
+	padding: 0.5em 0 0.5em 0;
+	margin: 2em 0 0 0;
+	width: 100%;
+}
+
+body #principal .ftecnica .third_h .subt2{
+    color: white;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 4.5em;
+	background-color: black;
+    text-shadow: gray 0 4px 0;
+    padding-left: 10%;
+}
+
+/*-----------velocimetro----------*/
+body #principal .ftecnica .img_vf{
+	width: 100%;
+    margin-top: 1em;
+    border: 1px dashed green;
+}
+
+body #principal .ftecnica .img_vf img{
+	width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1em;
+}
+
+body #principal .ftecnica div{
+	color: black;
+    font-family: Arial Narrow;
+    font-size: 1em;
+    text-align: left;
+    border: 0.3em solid #868561;
+    border-radius: 10px;
+    width: 90%;
+    padding: 2%;
+    margin: 0 2% 0 2%;
+}
+
+body #principal .ftecnica div strong{
+	color: black;
+    font-family: Arial Narrow;
+    font-size: 1em;
+}
+
+body #principal .ftecnica .fblanco{
+	background-color: white;
+}
+
+body #principal .ftecnica .famarillo{
+	background-color: #FFFF00;
+}
+
+/*body #principal .ftecnica >div{
+	margin-top: 2%;
+}*/
+
+/*-----------nav ficha técnica--------*/
+body #principal .ftecnica .nav_ft .b_inicio{
+    width: 100%;
+    background-color: #1A1A1A;
+    margin-top: 2em;
+    border: 1px dashed white;
+}
+
+body #principal .ftecnica .nav_ft .b_next img{
+    width: 50px;
+}
+
+/*----------footer-------*/
+
+body footer{
+	background-color: #1A1A1A;
+	width: 100%;
+	margin-top: 5%;
+	padding: 0.5em;
+}
+
+body footer p{
+	color: white;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 1.5em;
 }
