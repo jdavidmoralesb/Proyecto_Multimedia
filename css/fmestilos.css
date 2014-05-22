@@ -1,135 +1,133 @@
 *{
    color: white;
    padding: 0;
-   margin: 0;    
+   margin: 0; 
+   height: auto;   
 }
 
 body {
     background-color: black;
 }
 /*-----------Titulo----------*/
-body #first_h{
+#first_h{
 	background-color: #F7931E;
 	padding: 0.9em 0 0.9em 0;
-	margin-top: 5%;
+	margin-top: 10px;
 	width: 100%;
-	border: 1px solid blue;
+	
 }
 
-body #first_h .header_titulo{
+#first_h .header_titulo{
 	color: white;
 	font-family: Agency FB;
 	font-weight: bold;
-	font-size: 4.5em;
+	font-size: 4em;
 	text-align: center;
 	background-color: black;
     text-shadow: gray 0 4px 0;
-	border: 1px dashed green;
+	
 }
 
-body #first_h .header_titulo{
+#first_h .header_titulo{
 	width: 100%;
 	padding: 0.1em 0 0.1em 0;
 	margin: 0;
 }
 
-body #first_h .header_titulo .eleanor{
+#first_h .header_titulo .eleanor{
 	color: white;
 	font-family: Agency FB;
 	font-size: 0.5em;
 	font-weight: bold;
 }
 /*--------botones menu--------*/
-body #nav_h {
+#nav_h {
 	width: 100%;
-	border: 0.1em solid red;
+	
 }
 
-body #nav_h .menu_info, a{
+#nav_h .menu_info, a{
 	list-style: none;
 	text-decoration: none;
 }
 
-body #nav_h .menu_info{
+#nav_h .menu_info{
     width: 100%;
     background-color: #1A1A1A;
-	border: 1px dashed yellow;
+	
 }
 
-body #nav_h .menu_info .item_ft{
+#nav_h .menu_info .item_ft{
     border-left: 2px solid white;
 }
 
-body #nav_h .menu_info
+#nav_h .menu_info
 .item_h, .item_ft{
 	font-family: Agency FB;
 	font-weight: bold;
-	font-size: 2.5em;
+	font-size: 2em;
 	text-align: center;
     width: 48%;
     display: inline-block;
 }
 
 /*----------img carro----------*/
-body #nav_h .fig_h .img_mb{
+#nav_h .fig_h img{
+    border-top-color: 5px solid white;
 	width: 100%;
 }
+
+#nav_h .fig_h{
+    width: 100%;
+}
+
 /*----------redes sociales---------*/
-body #nav_h .contenedor_rs{
-	width: 100%;
-	margin-top: 5%;
+#nav_h {
+    width: 100%;
     background-color: #1A1A1A;
-	border: 1px dashed pink;
+}
+
+#nav_h .contenedor_rs{
+	width: 160px;
+    margin: auto;
+	margin-top: 0.5px;
 } 
 
-body #nav_h .contenedor_rs .div_rs{
-    margin: auto;
-    width: 160px;
-    border: 1px dashed black;
-}
-
-body #nav_h .contenedor_rs .div_rs .item_face,
-.item_tw, .item_yt{
+#nav_h .contenedor_rs img{
 	width: 50px;  
 }
 
 /*----------Titulo2------*/
-body #principal .historia .second_h{
+#section1 .historia .second_h{
     background-color: red;
 	padding: 0.5em 0 0.5em 0;
-	margin: 2em 0 0 0;
+	margin-top: 50px;
 	width: 100%;
 }
 
-body #principal .historia .second_h .subt1{
+#section1 .historia .second_h h2{
     color: white;
 	font-family: Agency FB;
 	font-weight: bold;
-	font-size: 4.5em;
+	font-size: 3em;
 	background-color: black;
     text-shadow: gray 0 4px 0;
     padding-left: 10%;
 }
 
 /*---------mustangflat-----------*/
-body #principal .historia .img_mf{
-    width: 100%;
-    margin-top: 1em;
-    border: 1px dashed green;
-    
+#section1 .historia .img_mf{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
 }
 
-body #principal .historia .img_mf img{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 1em;
-
+#section1 .historia .img_mf img{
+    width: 100%;
 }
 
 /*----------texto de historia-------*/
-body #principal .historia .info1,
+#section1 .historia .info1,
 .info2{
     color: black;
     font-family: Arial Narrow;
@@ -138,55 +136,47 @@ body #principal .historia .info1,
     border: 0.3em solid red;
     border-radius: 10px;
     width: 90%;
-    padding: 2%;
+    padding: 2%; 
     margin: 2%;
     background-color: #F2F2F2;
 }
-/*--------navhistoria-----------*/
-body #principal .historia .nav_historia .b_next{
-    width: 100%;
-    background-color: #1A1A1A;
-    margin-top: 2em;
-    border: 1px dashed white;
+
+#section1 .historia .info1{
+    margin-top: 20px;
 }
 
-body #principal .historia .nav_historia .b_next img{
-    width: 50px;
-}
 /*-------------titulo3-----------*/
-body #principal .ftecnica .third_h{
+#section2 .ftecnica .third_h{
     background-color: #868561;
 	padding: 0.5em 0 0.5em 0;
 	margin: 2em 0 0 0;
 	width: 100%;
 }
 
-body #principal .ftecnica .third_h .subt2{
+#section2 .ftecnica .third_h h2{
     color: white;
 	font-family: Agency FB;
 	font-weight: bold;
-	font-size: 4.5em;
+	font-size: 3em;
 	background-color: black;
     text-shadow: gray 0 4px 0;
     padding-left: 10%;
 }
 
 /*-----------velocimetro----------*/
-body #principal .ftecnica .img_vf{
+#section2 .ftecnica .img_vf{
+	width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#section2 .ftecnica .img_vf img{
 	width: 100%;
-    margin-top: 1em;
-    border: 1px dashed green;
 }
 
-body #principal .ftecnica .img_vf img{
-	width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 1em;
-}
-
-body #principal .ftecnica div{
+/*--------------section ftecnica------------*/
+#section2 .ftecnica .fblanco, .famarillo{
 	color: black;
     font-family: Arial Narrow;
     font-size: 1em;
@@ -195,51 +185,489 @@ body #principal .ftecnica div{
     border-radius: 10px;
     width: 90%;
     padding: 2%;
-    margin: 0 2% 0 2%;
 }
 
-body #principal .ftecnica div strong{
+#section2 .ftecnica div strong{
 	color: black;
     font-family: Arial Narrow;
     font-size: 1em;
 }
 
-body #principal .ftecnica .fblanco{
+#section2 .ftecnica .fblanco{
 	background-color: white;
 }
 
-body #principal .ftecnica .famarillo{
+#section2 .ftecnica .famarillo{
 	background-color: #FFFF00;
 }
 
-/*body #principal .ftecnica >div{
-	margin-top: 2%;
-}*/
 
 /*-----------nav ficha técnica--------*/
-body #principal .ftecnica .nav_ft .b_inicio{
+#section2  .nav_ft{
     width: 100%;
-    background-color: #1A1A1A;
-    margin-top: 2em;
-    border: 1px dashed white;
 }
 
-body #principal .ftecnica .nav_ft .b_next img{
+#section2  .nav_ft .b_inicio{
+    width: 60px;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+
+#section2  .nav_ft .b_next img{
     width: 50px;
 }
 
 /*----------footer-------*/
 
-body footer{
+footer{
 	background-color: #1A1A1A;
 	width: 100%;
 	margin-top: 5%;
-	padding: 0.5em;
+	padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-body footer p{
+footer p{
 	color: white;
 	font-family: Agency FB;
 	font-weight: bold;
 	font-size: 1.5em;
+    margin-left: 10%;
+}
+
+
+/*************************medias query*************************/
+
+
+/****************------------------320px------------**********/
+@media screen and (max-width: 320px){
+    body{
+        width: 100%;
+     }
+
+    /*****titulo principal***********/
+     #first_h .header_titulo{
+        font-size: 3em;
+     } 
+    
+    /*****botones menu principal***********/
+    #nav_h .menu_info {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    
+    /*****redes sociales***********/
+     #nav_h .contenedor_rs{
+        width: 130px;
+        margin: auto;
+     }
+
+     #nav_h .contenedor_rs img{
+        width: 40px;
+     }
+
+     /***********segundo y tercer titulo***********/
+     #section1 .historia .second_h{
+        margin-top: 80px;
+     }
+
+     #section2 .ftecnica .third_h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+
+     #section1 .historia .second_h h2,
+     #section2 .ftecnica .third_h h2{
+        font-size: 2.5em;
+    }
+    
+       /***********msutang y velocimetro flat**********/
+     #section1 .historia .img_mf{
+        width: 70%;
+        float: left;
+    }
+
+    #section2 .ftecnica .img_vf{
+        width: 50%;
+        margin: auto;        
+    }
+}
+
+
+/****************------------------321px 480px------------**********/
+@media screen and (min-width: 321px) and (max-width: 480px){
+ body{
+        width: 100%;
+     }
+
+    /*****titulo principal***********/
+     #first_h .header_titulo{
+        font-size: 3em;
+     } 
+    
+    /*****botones menu principal***********/
+    #nav_h .menu_info {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    
+    /*****redes sociales***********/
+     #nav_h .contenedor_rs{
+        width: 130px;
+        margin: auto;
+     }
+
+     #nav_h .contenedor_rs img{
+        width: 40px;
+     }
+
+     /***********segundo y tercer titulo***********/
+     #section1 .historia .second_h{
+        margin-top: 80px;
+     }
+
+     #section2 .ftecnica .third_h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+
+     #section1 .historia .second_h h2,
+     #section2 .ftecnica .third_h h2{
+        font-size: 2.5em;
+     }
+
+     /***********msutang y velocimetro flat**********/
+     #section1 .historia .img_mf{
+        width: 70%;
+        float: left;
+    }
+
+    #section2 .ftecnica .img_vf{
+        width: 50%;
+        margin: auto;        
+    }
+
+    /******************texto historia*******************/
+    #section1 .historia .info1{
+        margin-top: 35px;
+    }
+    #section1 .historia .info1,
+    .info2{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /***************ficha tecnica************/
+    #section2 .ftecnica .fblanco, .famarillo{
+        width: 100%;
+        
+        border-width: 2.5px;
+    }
+
+    #section2 .ftecnica .t1, .t2{
+        display: block;
+        width: 75%;
+        margin: auto;
+    }
+
+      /****************boton de section****************/
+    #section2  .nav_ft .b_inicio img{
+        width: 60px;
+        margin-top: 30px;
+    }
+}
+
+
+/****************------------------481px 767px------------**********/
+@media screen and (min-width: 481px) and (max-width: 767px){
+     body{
+        width: 85%;
+        margin: auto;
+     }
+
+    /*****titulo principal***********/
+     #first_h .header_titulo{
+        font-size: 4em;
+     } 
+    
+    /*****botones menu principal***********/
+    #nav_h .menu_info {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    /*****redes sociales***********/
+     #nav_h .contenedor_rs{
+        width: 145px;
+        margin: auto;
+     }
+
+     #nav_h .contenedor_rs img{
+        width: 45px;
+     }
+
+     /***********segundo y tercer titulo***********/
+     #section1 .historia .second_h{
+        margin-top: 80px;
+     }
+
+     #section2 .ftecnica .third_h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+
+     #section1 .historia .second_h h2,
+     #section2 .ftecnica .third_h h2{
+        font-size: 3em;
+     }
+
+     /***********msutang y velocimetro flat**********/
+     #section1 .historia .img_mf{
+        width: 60%;
+        float: left;
+    }
+
+    #section2 .ftecnica .img_vf{
+        width: 35%;        
+    }
+
+    /******************texto historia*******************/
+    #section1 .historia .info1{
+        margin-top: 35px;
+    }
+    #section1 .historia .info1,
+    .info2{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /***************ficha tecnica************/
+    #section2 .ftecnica .fblanco, .famarillo{
+        width: 100%;
+        margin: 0;
+        border-width: 3px;
+    }
+
+    #section2 .ftecnica .t1{
+        float: left;
+        margin-left: 7%;
+    }
+
+    #section2 .ftecnica .t2{
+        float: right;
+        margin-right: 7%;
+        margin-top: 10px;
+    }
+
+    #section2 .ftecnica .t1, .t2{
+        display: inline-block;
+        width: 40%;
+    }
+
+      /****************boton de section****************/
+    #section2  .nav_ft{
+        clear: both;
+    }
+
+    #section2  .nav_ft .b_inicio img{
+        width: 65px;
+        margin-top: 30px;
+    }
+ }
+
+
+/****************------------------768px 1024px------------**********/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+      body{
+        width: 80%;
+        margin: auto;
+     }
+
+    /*****titulo principal***********/
+     #first_h .header_titulo{
+        font-size: 5em;
+     } 
+    
+    /*****botones menu principal***********/
+    #nav_h .menu_info {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    /*****redes sociales***********/
+     #nav_h .contenedor_rs{
+        width: 145px;
+        margin: auto;
+     }
+
+     #nav_h .contenedor_rs img{
+        width: 45px;
+     }
+
+     /***********segundo y tercer titulo***********/
+     #section1 .historia .second_h{
+        margin-top: 80px;
+     }
+
+     #section2 .ftecnica .third_h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+
+     #section1 .historia .second_h h2,
+     #section2 .ftecnica .third_h h2{
+        font-size: 4em;
+     }
+
+     /***********msutang y velocimetro flat**********/
+     #section1 .historia .img_mf{
+        width: 60%;
+        float: left;
+    }
+
+    #section2 .ftecnica .img_vf{
+        width: 35%;        
+    }
+
+    /******************texto historia*******************/
+    #section1 .historia .info1{
+        margin-top: 35px;
+    }
+    #section1 .historia .info1,
+    .info2{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /***************ficha tecnica************/
+    #section2 .ftecnica .fblanco, .famarillo{
+        width: 100%;
+        margin: 0;
+        border-width: 3.5px;
+    }
+
+    #section2 .ftecnica .t1{
+        float: left;
+        margin-left: 15%;
+    }
+
+    #section2 .ftecnica .t2{
+        float: right;
+        margin-right: 15%;
+        margin-top: 10px;
+    }
+
+    #section2 .ftecnica .t1, .t2{
+        display: inline-block;
+        width: 30%;
+    }
+
+      /****************boton de section****************/
+    #section2  .nav_ft{
+        clear: both;
+    }
+
+    #section2  .nav_ft .b_inicio img{
+        width: 60px;
+        margin-top: 30px;
+    }
+}
+
+/****************------------------1025px------------**********/
+@media screen and (min-width: 1025px){
+    body{
+        width: 70%;
+        margin: auto;
+     }
+
+    /*****titulo principal***********/
+     #first_h .header_titulo{
+        font-size: 5.5em;
+     } 
+    
+    /*****botones menu principal***********/
+    #nav_h .menu_info {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    
+    /*****redes sociales***********/
+     #nav_h .contenedor_rs{
+        width: 180px;
+        margin: auto;
+     }
+
+     #nav_h .contenedor_rs img{
+        width: 50px;
+     }
+
+     /***********segundo y tercer titulo***********/
+     #section1 .historia .second_h{
+        margin-top: 80px;
+     }
+
+     #section2 .ftecnica .third_h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+
+     #section1 .historia .second_h h2,
+     #section2 .ftecnica .third_h h2{
+        font-size: 4.5em;
+     }
+
+     /***********msutang y velocimetro flat**********/
+     #section1 .historia .img_mf{
+        width: 40%;
+        float: left;
+    }
+
+    #section2 .ftecnica .img_vf{
+        width: 30%;
+        float: right;
+        margin-top: -10px;
+        
+    }
+
+    /******************texto historia*******************/
+    #section1 .historia .info1{
+        margin-top: 35px;
+    }
+    #section1 .historia .info1,
+    .info2{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /***************ficha tecnica************/
+    #section2 .ftecnica .fblanco, .famarillo{
+        width: 100%;
+        margin: 0;
+    }
+
+    #section2 .ftecnica .t2{
+        margin-left: 3%;
+    }
+
+    #section2 .ftecnica .t1, .t2{
+        display: inline-block;
+        width: 30%;
+        margin-top: 50px;
+    }
+
+      /****************boton de section****************/
+    #section2  .nav_ft{
+        clear: both;
+    }
+
+    #section2  .nav_ft .b_inicio img{
+        width: 70px;
+        margin-top: 30px;
+    }
+
 }
