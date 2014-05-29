@@ -364,7 +364,8 @@ footer p{
     #section2 .img_vf{
         max-width: 60%;
         margin: auto;
-        margin-top:         
+        margin-top: 20px; 
+        margin-bottom: 20px;       
     }
 
     /******************texto historia*******************/
@@ -386,7 +387,7 @@ footer p{
 
     #section2  .t1, .t2{
         display: block;
-        max-width: 75%;
+        max-width: 65%;
         margin: auto;
     }
 
@@ -408,6 +409,7 @@ footer p{
     /*****titulo principal***********/
      #first_h .header_titulo{
         font-size: 4em;
+        text-shadow: gray 0 3px 0;
      } 
     
     /*****botones menu principal***********/
@@ -437,8 +439,9 @@ footer p{
      }
 
      #section1 .historia .second_h h2,
-     #section2 .ftecnica .third_h h2{
+     #section2 .third_h h2{
         font-size: 3em;
+        text-shadow: gray 0 3px 0;
      }
 
      /***********msutang y velocimetro flat**********/
@@ -447,8 +450,8 @@ footer p{
         float: left;
     }
 
-    #section2 .ftecnica .img_vf{
-        width: 35%;        
+    #section2  .img_vf{
+        max-width: 40%;        
     }
 
     /******************texto historia*******************/
@@ -463,26 +466,23 @@ footer p{
     }
 
     /***************ficha tecnica************/
-    #section2 .ftecnica .fblanco, .famarillo{
+    #section2 .fblanco, .famarillo{
         width: 100%;
         margin: 0;
-        border-width: 3px;
+        border-width: 2.5px;
     }
 
-    #section2 .ftecnica .t1{
+    #section2  .t1{
         float: left;
-        margin-left: 7%;
     }
 
-    #section2 .ftecnica .t2{
+    #section2  .t2{
         float: right;
-        margin-right: 7%;
-        margin-top: 10px;
     }
 
-    #section2 .ftecnica .t1, .t2{
+    #section2  .t1, .t2{
         display: inline-block;
-        width: 40%;
+        max-width: 45%;
     }
 
       /****************boton de section****************/
@@ -546,8 +546,8 @@ footer p{
         float: left;
     }
 
-    #section2 .ftecnica .img_vf{
-        width: 35%;        
+    #section2  .img_vf{
+        max-width: 50%;        
     }
 
     /******************texto historia*******************/
@@ -562,26 +562,23 @@ footer p{
     }
 
     /***************ficha tecnica************/
-    #section2 .ftecnica .fblanco, .famarillo{
+    #section2  .fblanco, .famarillo{
         width: 100%;
         margin: 0;
         border-width: 3.5px;
     }
 
-    #section2 .ftecnica .t1{
+    #section2  .t1{
         float: left;
-        margin-left: 15%;
     }
 
-    #section2 .ftecnica .t2{
+    #section2  .t2{
         float: right;
-        margin-right: 15%;
-        margin-top: 10px;
     }
 
-    #section2 .ftecnica .t1, .t2{
+    #section2 .t1, .t2{
         display: inline-block;
-        width: 30%;
+        max-width: 40%;
     }
 
       /****************boton de section****************/
@@ -664,10 +661,6 @@ footer p{
     /***************ficha tecnica************/
     #section2{
         overflow: hidden;
-    }
-
-    #section2  .t1 .fbalnco:nth-child(1){
-        color: green;
     }
 
     #section2 .fblanco, .famarillo{
