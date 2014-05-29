@@ -46,7 +46,7 @@ body {
 	
 }
 
-#nav_h .menu_info, a{
+#nav_h a, .menu_info{
 	list-style: none;
 	text-decoration: none;
 }
@@ -146,14 +146,14 @@ body {
 }
 
 /*-------------titulo3-----------*/
-#section2 .ftecnica .third_h{
+#section2 .third_h{
     background-color: #868561;
 	padding: 0.5em 0 0.5em 0;
 	margin: 2em 0 0 0;
 	width: 100%;
 }
 
-#section2 .ftecnica .third_h h2{
+#section2 .third_h h2{
     color: white;
 	font-family: Agency FB;
 	font-weight: bold;
@@ -164,19 +164,19 @@ body {
 }
 
 /*-----------velocimetro----------*/
-#section2 .ftecnica .img_vf{
+#section2 .img_vf{
 	width: 75%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
-#section2 .ftecnica .img_vf img{
+#section2 .img_vf img{
 	width: 100%;
 }
 
 /*--------------section ftecnica------------*/
-#section2 .ftecnica .fblanco, .famarillo{
+#section2 .fblanco, .famarillo{
 	color: black;
     font-family: Arial Narrow;
     font-size: 1em;
@@ -187,17 +187,17 @@ body {
     padding: 2%;
 }
 
-#section2 .ftecnica div strong{
+#section2 div strong{
 	color: black;
     font-family: Arial Narrow;
     font-size: 1em;
 }
 
-#section2 .ftecnica .fblanco{
+#section2 .fblanco{
 	background-color: white;
 }
 
-#section2 .ftecnica .famarillo{
+#section2 .famarillo{
 	background-color: #FFFF00;
 }
 
@@ -362,7 +362,6 @@ footer p{
     /***************ficha tecnica************/
     #section2 .ftecnica .fblanco, .famarillo{
         width: 100%;
-        
         border-width: 2.5px;
     }
 
@@ -616,7 +615,7 @@ footer p{
      }
 
      #section1 .historia .second_h h2,
-     #section2 .ftecnica .third_h h2{
+     #section2 .third_h h2{
         font-size: 4.5em;
      }
 
@@ -626,10 +625,9 @@ footer p{
         float: left;
     }
 
-    #section2 .ftecnica .img_vf{
+    #section2 .img_vf{
         width: 30%;
-        float: right;
-        margin-top: -10px;
+        margin-top: 20px;
         
     }
 
@@ -645,26 +643,30 @@ footer p{
     }
 
     /***************ficha tecnica************/
-    #section2 .ftecnica .fblanco, .famarillo{
-        width: 100%;
+    #section2{
+        overflow: hidden;
+    }
+
+    #section2  .t1 .fbalnco:nth-child(1){
+        color: green;
+    }
+
+    #section2 .fblanco, .famarillo{
+        max-width: 90%;
         margin: 0;
     }
 
-    #section2 .ftecnica .t2{
-        margin-left: 3%;
+    #section2 .t1{
+        margin-left: 15%;
     }
 
-    #section2 .ftecnica .t1, .t2{
+    #section2 .t1, .t2{
         display: inline-block;
-        width: 30%;
-        margin-top: 50px;
+        max-width: 35%;
+        margin-top: 10px;
     }
 
       /****************boton de section****************/
-    #section2  .nav_ft{
-        clear: both;
-    }
-
     #section2  .nav_ft .b_inicio img{
         width: 70px;
         margin-top: 30px;
