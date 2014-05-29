@@ -249,6 +249,7 @@ footer p{
     /*****titulo principal***********/
      #first_h .header_titulo{
         font-size: 3em;
+        text-shadow: gray 0 2.5px 0;
      } 
     
     /*****botones menu principal***********/
@@ -280,17 +281,28 @@ footer p{
      #section1 .historia .second_h h2,
      #section2 .ftecnica .third_h h2{
         font-size: 2.5em;
+        text-shadow: gray 0 2.5px 0;
     }
     
        /***********msutang y velocimetro flat**********/
      #section1 .historia .img_mf{
-        width: 70%;
-        float: left;
+        max-width: 90%;
     }
 
-    #section2 .ftecnica .img_vf{
-        width: 50%;
+    #section2  .img_vf{
+        max-width: 50%;
         margin: auto;        
+    }
+
+     /***************ficha tecnica************/
+    #section2 .fblanco, .famarillo{
+        width: 100%;
+        border-width: 2px;
+    }
+
+    #section2  .t1, .t2{
+        max-width: 80%;
+        margin: auto;
     }
 }
 
@@ -304,6 +316,11 @@ footer p{
     /*****titulo principal***********/
      #first_h .header_titulo{
         font-size: 3em;
+        text-shadow: gray 0 3px 0;
+     }
+
+     #first_h .header_titulo .eleanor{
+        text-shadow: gray 0 2.5px 0;
      } 
     
     /*****botones menu principal***********/
@@ -333,8 +350,9 @@ footer p{
      }
 
      #section1 .historia .second_h h2,
-     #section2 .ftecnica .third_h h2{
+     #section2 .third_h h2{
         font-size: 2.5em;
+        text-shadow: gray 0 3px 0;
      }
 
      /***********msutang y velocimetro flat**********/
@@ -343,9 +361,10 @@ footer p{
         float: left;
     }
 
-    #section2 .ftecnica .img_vf{
-        width: 50%;
-        margin: auto;        
+    #section2 .img_vf{
+        max-width: 60%;
+        margin: auto;
+        margin-top:         
     }
 
     /******************texto historia*******************/
@@ -360,14 +379,14 @@ footer p{
     }
 
     /***************ficha tecnica************/
-    #section2 .ftecnica .fblanco, .famarillo{
+    #section2  .fblanco, .famarillo{
         width: 100%;
         border-width: 2.5px;
     }
 
-    #section2 .ftecnica .t1, .t2{
+    #section2  .t1, .t2{
         display: block;
-        width: 75%;
+        max-width: 75%;
         margin: auto;
     }
 
